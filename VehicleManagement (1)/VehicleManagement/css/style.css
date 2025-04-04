@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+
+.bg-image {
+    background: url('../uploads/FondEcran.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+form {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden-link {
+    padding: 10px 15px;
+}
+
+.hidden-link:link {
+    color: white;
+    text-decoration: none;
+}
+.hidden-link:visited {
+    color: white;
+    text-decoration: none;
+}
+.hidden-link:hover {
+    color: white;
+    text-decoration: none;
+}
+.hidden-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between; /* Place le formulaire à gauche et le bouton à droite */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-form {
+    display: flex;
+    gap: 10px; /* Espacement entre les champs du formulaire */
+}
+
+.vehicle-item {
+    display: flex; /* Aligne les éléments (texte, image, bouton) sur une ligne */
+    align-items: center; /* Centre verticalement le contenu */
+    gap: 10px; /* Espace entre le texte, l'image et le bouton */
+    margin-bottom: 10px; /* Espacement entre chaque ligne */
+    list-style-type: none; /* Supprime les puces de la liste */
+}
+
+.vehicle-info {
+    margin: 0; /* Supprime les marges par défaut du texte */
+}
+
+.vehicle-image {
+    width: 100px; /* Taille fixe pour l'image */
+    height: auto; /* Conserve le ratio de l'image */
+    border-radius: 5px; /* Coins arrondis (optionnel) */
+}
+
+.vehicle-button {
+    margin-left: auto; /* Pousse le bouton légèrement vers la droite */
+    padding: 5px 10px; /* Taille du bouton */
+    background-color: #007bff; /* Couleur bleu (modifiable) */
+    color: white; /* Texte blanc */
+    border: none; /* Supprime les bordures par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur en pointeur */
+}
+
+.delete-form {
+    margin-left: 10px; /* Sépare le bouton des autres éléments */
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
+
+.edit-form {
+    margin-left: auto;
+}
+
+.edit-button {
+    padding: 5px 10px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+
+.white-space {
+    height: 75px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #343a40; 
+}
+
+footer {
+    position: fixed; /* Reste en bas de la page */
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Couleur de fond sombre */
+    color: white; /* Texte blanc */
+    text-align: center;
+    padding: 10px 0; /* Espace intérieur */
+    font-size: 14px; /* Taille du texte */
+}
+
+footer p {
+    margin: 0; /* Supprime les marges */
+}
+
+
+.card {
+    border-radius: 10px; /* Coins arrondis */
+    overflow: hidden;
+    transition: transform 0.2s; /* Animation au survol */
+    color: black;
+    background-color: rgba(255, 255, 255, 0.808); /* Fond blanc avec 80% d'opacité */
+}
+
+
+.card:hover {
+    transform: scale(1.05); /* Agrandissement léger au survol */
+}
+
+.card-img-top {
+    height: 200px; /* Hauteur fixe pour les images */
+    object-fit: cover; /* Recadrage pour conserver le ratio */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.about-section{
+    color: white; /* Couleur blanche pour le texte */
+    text-align: center; /* Centre le texte */
+    margin-top: 50px; /* Ajoute un espace en haut */
+    background-color: #343a40;
+}
+
+.contact-section{
+    color: white; /* Couleur blanche pour le texte */
+    text-align: center; /* Centre le texte */
+    margin-top: 50px; /* Ajoute un espace en haut */
+    background-color: #343a40;
+}
+
+.modal-content {
+    color: black; /* Définit la couleur du texte en noir */
+    background-color: white; /* Fond blanc pour un meilleur contraste */
+}
+
+.modal-title {
+    color: black; /* Couleur noire pour le titre */
+}
+
+#vehicle_info {
+    color: black; /* Couleur noire pour le texte dynamique */
+}
+
+.form-group label {
+    color: black; /* Couleur noire pour les étiquettes des champs */
+}
+
+.page-content{
+    padding-top: 300; 
+    background-color: #343a40;
+}
+
+h1{
+    text-align: center; /* Centre le titre */
+    margin-top: 20px; /* Facultatif : espace supplémentaire pour l'esthétique */
+}
